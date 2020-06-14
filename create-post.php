@@ -23,5 +23,5 @@ if ( is_wp_error( $response ) ) {
       );
       wp_insert_post( $my_post );
    }
-
+   echo "se inserto correctamente";
 }
